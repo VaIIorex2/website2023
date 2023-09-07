@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+width: 100%;
+margin: 0 auto;
+height: 0 auto;
+font-family: 'Tangerine', cursive;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-attachment: fixed;
+}
+
+img{
+    width: 100%;
+    height: 0 auto;
+    display:block;
+}
+
+header{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 5%;
+    text-shadow: 1px 1px 1rem black;
+}
+
+h1{
+    text-align: center;
+    font-size: 5rem;
+    color: rgb(255, 0, 119);
+}
+
+section{
+    width: 80%;
+    background-color: rgba(67, 4, 4, 0.751);
+    height: 0 auto;
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(252, 72, 156);
+    font-size: 2rem;
+    outline-style: ridge;
+    text-shadow: 1px 1px 1rem black;
+    padding-top: 1%;
+}
+
+article{
+    float:left;
+    width: 30%;
+    margin-left: 1.6%;
+    margin-right: 1.6%;
+}
+
+a{
+    font-size: 2rem;
+}
+
+a:hover{
+    color: maroon;
+}
+
+p{
+    padding-bottom: 2.5%;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h3{
+    text-align: center;
+    color: rgb(252, 72, 156);
+    font-size: 3rem;
+}
+
+h3:hover{
+    color: maroon;
+}
